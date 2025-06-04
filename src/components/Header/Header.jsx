@@ -29,7 +29,7 @@ const Header = () => {
                     <h1 className="text-2xl font-bold text-black">Professional Repair Services</h1>
                     <p className="text-sm text-black max-w-md">
                         Get your devices and appliances fixed by certified professionals.
-                        Fast, reliable, and affordable repair services at your doorstep.
+                        Fast, reliable, and affordable repair services at your figertips.
                     </p>
                 </div>
 

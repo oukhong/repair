@@ -214,7 +214,7 @@ const Hero = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* Card 1 */}
             <div className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-300 hover:shadow-xl cursor-pointer">
-              <img src={image9} alt="" className="w-full h-48 object-cover" />
+              <img src={image9} alt="" className="w-full h-85 object-cover" />
               <h1 className="text-center text-2xl font-semibold mt-4">Premium Services</h1>
               <div className="p-3">
                 <div className="flex pt-7 text-yellow-500 text-xl gap-2">
@@ -234,7 +234,7 @@ const Hero = () => {
 
             {/* Card 2 */}
             <div className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-300 hover:shadow-xl cursor-pointer">
-              <img src={image10} alt="" className="w-full h-48 object-cover" />
+              <img src={image10} alt="" className="w-full h-85 object-cover" />
               <h1 className="text-center text-2xl font-semibold mt-4">Professional Services</h1>
               <div className="p-3">
                 <div className="flex pt-7 text-yellow-500 text-xl gap-2">
@@ -254,7 +254,7 @@ const Hero = () => {
 
             {/* Card 3 */}
             <div className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-300 hover:shadow-xl cursor-pointer">
-              <img src={image11} alt="" className="w-full h-48 object-cover" />
+              <img src={image11} alt="" className="w-full h-85 object-cover" />
               <h1 className="text-center text-2xl font-semibold mt-4">Standard Services</h1>
               <div className="p-3">
                 <div className="flex pt-7 text-yellow-500 text-xl gap-2">
@@ -282,27 +282,27 @@ const Hero = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Card 1 */}
             <div className="bg-white border border-gray-300 rounded-2xl">
-              <img src={premium} alt="" className="rounded-t-2xl" />
-              <div className="py-4 mt-5 text-center items-center justify-center">
-                <GrCompliance className="w-full text-5xl" />
+              <img src={premium} alt="" className="rounded-t-2xl h-85" />
+              <div className="py-4 text-center items-center justify-center">
+                {/* <GrCompliance className="w-full text-5xl" /> */}
                 <h1 className="mt-5 font-semibold text-3xl">4+</h1>
                 <p className="">Premium Projects Completed</p>
               </div>
             </div>
             {/* Card 2 */}
             <div className="bg-white border border-gray-300 rounded-2xl">
-              <img src={premium} alt="" className="rounded-t-2xl" />
-              <div className="py-4 mt-5 text-center items-center justify-center">
-                <GrCompliance className="w-full text-5xl" />
+              <img src={premium} alt="" className="rounded-t-2xl h-85" />
+              <div className="py-4 text-center items-center justify-center">
+                {/* <GrCompliance className="w-full text-5xl" /> */}
                 <h1 className="mt-5 font-semibold text-3xl">4+</h1>
                 <p className="">Professional Projects Completed</p>
               </div>
             </div>
             {/* Card 3 */}
             <div className="bg-white border border-gray-300 rounded-2xl">
-              <img src={premium} alt="" className="rounded-t-2xl" />
-              <div className="py-4 mt-5 text-center items-center justify-center">
-                <GrCompliance className="w-full text-5xl" />
+              <img src={premium} alt="" className="rounded-t-2xl h-85" />
+              <div className="py-4 text-center items-center justify-center">
+                {/* <GrCompliance className="w-full text-5xl" /> */}
                 <h1 className="mt-5 font-semibold text-3xl">4+</h1>
                 <p className="">Standard Projects Completed</p>
               </div>
